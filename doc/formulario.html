@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="../favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/barranav.css">
+    <title>Formulario</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(202, 186, 186);
+        }
+        form {
+        background-color: white;
+        border: 1px solid darkgray;
+        padding: 20px;
+        width: 50%;
+        margin: 20px auto;
+        }
+        h1, h2 {
+        text-align: center;
+        }
+        label {
+        display: block;
+        margin-bottom: 10px;
+        }
+        input[type="text"], input[type="email"], textarea {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        }
+        input[type="submit"] {
+        background-color: darkgray;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href=""><img src="../favicon_io/favicon-16x16.png" alt="logo"></a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+            <li><a href="ubicacion.html">Ubicacion</a></li>
+            <li><a href="">Sobre Nosotros</a></li>
+        </ul>
+    </div>
+    <form>
+        <h1>Formulario de Contacto</h1>
+        <h2>Contáctanos para más información</h2>
+        <label for="nombre">Nombre:</label>
+        <input style="width: 200px;" type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="nombre">Numero de telefono:</label>
+        <input type="number" id="movil" name="movil" required>
+        <label for="mensaje">Mensaje:</label>---------------------------------- Cambiar esto!
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</body>-
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

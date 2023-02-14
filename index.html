@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Daniel">
+    <meta name="Description" content="ejercicios">
+    <meta name="Keywords" content="horario, temario">
+    <link rel="icon" type="image/jpg" href="favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/barranav.css">
+    <link rel="stylesheet" href="./css/fotoinicioflechas.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Inicio</title>
+    <style>	
+        body{ 
+            background-color: rgb(202, 186, 186);
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+  <header>
+      <ul>
+          <li><a><img src="favicon_io/favicon-16x16.png" alt="logo"></a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="doc/formulario.html">Contacto</a></li>
+          <li><a href="doc/ubicacion.html">Ubicacion</a></li>
+          <li><a href="doc/nosotros.html">Sobre Nosotros</a></li>
+      </ul>
+  </header>
+
+  <div class="slider-container">
+    <div class="slider">
+      <img style="border-radius: 50%;" src="img/bienvenido2.jpg" class="slide">
+      <img src="img/fotoweb.jpg" class="slide">
+      <img src="img/mantenimientodeequipos.jpg" class="slide">
+      <img src="img/atencionalcliente.jpg" class="slide">
+    </div>
+    <div class="navigation">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </div>
+
+  <h1 style="text-align: center;">En esta empresa se realizan las siguientes operaciones:</h1><br>
+
+  <div class="container">
+    <div class="box">
+      <h2>Atencion 24H</h2><hr>
+      <p>En la atencion 24h tenemos a agentes disponibles para arreglar todo tipo de fallos informaticos</p>
+    </div>
+    <div class="box">
+      <h2>Arreglo de ordenadores</h2><hr>
+      <p>Tenemos a gente especializada en arreglo de ordenadores ya sea por cualquier causa.</p>
+    </div>
+    <div class="box">
+      <h2>Venta de productos</h2><hr>
+      <p>En esta empresa encontraras todo tipo de productos infomaticos de ultima generacion.</p>
+    </div>
+    <div class="box">
+      <h2>Perito de Seguros</h2><hr>
+      <p>Tenemos unos peritos encargados de valorar los daños del ordenador y transmitir el informe a los seguros.</p>
+    </div>
+  </div><br><br>
+
+  <footer>
+    <a href="https://www.instagram.com/daniicortess7/" target="_blank" >
+      <img src="img/instagram.png" class="icon" alt="Instagram" >
+    </a>
+    <a href="https://twitter.com/daniicortess7" target="_blank">
+      <img src="img/twitter.png" class="icon" alt="Twitter">
+    </a>
+    <a href="https://www.facebook.com/daniel.cortessanchez.336" target="_blank">
+      <img src="img/facebook.png" class="icon" alt="Facebook">
+    </a>
+  </footer>
+
+<script>
+    var slideIndex = 1;
+      showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].classList.remove("active");
+        }
+      slides[slideIndex-1].classList.add("active");
+    }
+</script>
+</body>
+</html>

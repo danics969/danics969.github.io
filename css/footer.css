@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    bottom: 0;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 50%;
+  }

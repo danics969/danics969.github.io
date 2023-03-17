@@ -1,0 +1,65 @@
+body{ 
+    background-color: rgb(202, 186, 186);
+    font-family: Arial, sans-serif;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 30px auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .dia{
+    background-color: rgb(251, 225, 185);
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .horario{
+    background-color: rgb(208, 167, 162);
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .grid-itemd {
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(247, 240, 230);
+  }
+  .grid-itemh {
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(238, 212, 209);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+    }
+    .dia{
+        display: none;
+    }
+    .horario{
+        display: none;
+    }
+  }

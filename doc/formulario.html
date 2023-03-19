@@ -17,16 +17,21 @@
     </style>
 </head>
 <body>
-    <div>
-        <ul>
-            <li><a href=""><img src="../favicon_io/favicon-16x16.png" alt="logo"></a></li>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="formulario.html">Contacto</a></li>
-            <li><a href="ubicacion.html">Ubicacion</a></li>
-            <li><a href="nosotros.html">Sobre Nosotros</a></li>
-            <li><a href="./horario.html">Horario</a></li>
-        </ul>
-    </div>
+    <header> <!--Menu navegacion-->
+        <nav>
+          <div class="menu_bt">
+            <button onclick="showList()" class="bt_conf"><img src="../img/menu.png" alt="menu" class="img_menu"></button>
+          </div>
+        </nav>  
+        <ul id="miLista" class="menu_barra">
+              <li><a><img src="../favicon_io/favicon-16x16.png" alt="logo"></a></li>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="formulario.html">Contacto</a></li>
+              <li><a href="ubicacion.html">Ubicacion</a></li>
+              <li><a href="nosotros.html">Sobre Nosotros</a></li>
+              <li><a href="horario.html">Horario</a></li>
+          </ul>
+      </header>
     <form>
         <h1>Formulario de Contacto</h1><br>
         <h2 style="font-size: 15px;">Contáctanos para más información</h2><br>
@@ -51,6 +56,7 @@
           <img src="../img/facebook.png" class="icon" alt="Facebook">
         </a>
     </footer>
+    <script src="../js/menu.js"></script>
 </body>
 </html>
 

@@ -12,7 +12,7 @@
     .slider-container{
         width: 50%;
     }
-    ul{
+    .menu_barra{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,6 +20,16 @@
     background-color: #333;
     font-size: 13px;
     width: 100%;
+    display: none;
+}
+    .bt_conf{
+        width: 25%;
+    }
+    .menu_bt{
+        background-color: #333;
+    }
+    .img_menu{
+        width: 80%;
 }
 li{
     float: left;
@@ -37,12 +47,15 @@ li a:hover{
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-    ul{
+    .menu_barra{
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
+    }
+    .menu_bt{
+        display: none;
     }
     li{
         float: left;
@@ -60,12 +73,15 @@ li a:hover{
 }
 
 @media screen and (min-width: 1024px) {
-    ul{
+    .menu_barra{
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
+    }
+    .menu_bt{
+        display: none;
     }
     li{
         float: left;

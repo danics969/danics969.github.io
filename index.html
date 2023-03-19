@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/barranav.css">
     <link rel="stylesheet" href="./css/fotoinicioflechas.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Inicio</title>
     <style>	
@@ -23,7 +22,12 @@
 </head>
 <body>
   <header> <!--Menu navegacion-->
-      <ul>
+    <nav>
+      <div class="menu_bt">
+        <button onclick="showList()" class="bt_conf"><img src="img/menu.png" alt="menu" class="img_menu"></button>
+      </div>
+    </nav>  
+    <ul id="miLista" class="menu_barra">
           <li><a><img src="favicon_io/favicon-16x16.png" alt="logo"></a></li>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="doc/formulario.html">Contacto</a></li>
@@ -92,6 +96,8 @@
         }
       slides[slideIndex-1].classList.add("active");
     }
+    
 </script>
+<script src="js/menu.js"></script>
 </body>
 </html>

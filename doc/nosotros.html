@@ -20,16 +20,21 @@
     </style>
 </head>
 <body>
-	<header>
-        <ul class="menu_barra">
-            <li><a><img src="../favicon_io/favicon-16x16.png" alt="logo"></a></li>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./formulario.html">Contacto</a></li>
-            <li><a href="./ubicacion.html">Ubicacion</a></li>
-            <li><a href="./nosotros.html">Sobre Nosotros</a></li>
-            <li><a href="./horario.html">Horario</a></li>
-        </ul>
-    </header>
+  <header> <!--Menu navegacion-->
+    <nav>
+      <div class="menu_bt">
+        <button onclick="showList()" class="bt_conf"><img src="../img/menu.png" alt="menu" class="img_menu"></button>
+      </div>
+    </nav>  
+    <ul id="miLista" class="menu_barra">
+          <li><a><img src="../favicon_io/favicon-16x16.png" alt="logo"></a></li>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="formulario.html">Contacto</a></li>
+          <li><a href="ubicacion.html">Ubicacion</a></li>
+          <li><a href="nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="horario.html">Horario</a></li>
+      </ul>
+  </header>
     <h1>Sobre nosotros</h1><hr>
     <p>
         Bienvenidos a <strong>DCS</strong>, una empresa de tecnología especializada en soluciones informáticas. Desde nuestra fundación, nos hemos dedicado a <strong>brindar a nuestros clientes soluciones innovadoras que les permitan mejorar su productividad y competitividad en el mercado.</strong><br><br>
@@ -52,5 +57,6 @@
           <img src="../img/facebook.png" class="icon" alt="Facebook">
         </a>
       </footer>
+    <script src="../js/menu.js"></script>
 </body>
 </html>

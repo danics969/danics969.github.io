@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /* Para movil */
     body{
-        width: 100%;
+        width: 100%; /*  */
     }
     header{
         width: 100%;
     }
     .slider-container{
-        width: 50%;
+        width: 50%; /* Contenedor del slider */
     }
-    .menu_barra{
+    .menu_barra{ /* Barra de nav */
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -22,16 +22,16 @@
         width: 100%;
         display: none;
     }
-    .bt_conf{
+    .bt_conf{ /* Estilos del Boton */
         width: 20%;
         background-color: #333;
         border: 0px;
         border-radius: 45%;
     }
-    .menu_bt{
+    .menu_bt{ /* Fondo de boton del menu */
         background-color: #333;
     }
-    .img_menu{
+    .img_menu{ /* Imagen del menu */
         width: 80%;
     }
     li{
@@ -52,7 +52,7 @@
         display: none;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 480px) and (max-width: 1024px) { /* Para tablet */
     .menu_barra{
         list-style-type: none;
         margin: 0;
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* Para ordenadores */
     .menu_barra{
         list-style-type: none;
         margin: 0;

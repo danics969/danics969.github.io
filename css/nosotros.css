@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* Para ordenadores */
     .image-container {
         display: flex;
         justify-content: center;
@@ -30,7 +30,7 @@
         margin: 0 auto;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 480px) and (max-width: 1024px) { /* Para tablets */
     .image-container {
         display: flex;
         justify-content: center;
@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /* Para moviles */
     .image-container {
         display: flex;
         justify-content: center;

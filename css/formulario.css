@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* Para portatiles */
     form {
         background-color: white;
         border: 1px solid darkgray;
@@ -33,7 +33,7 @@
             width: 200px;
         }
 }
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 480px) and (max-width: 1024px) { /* Para tablets */
         form {
         background-color: white;
         border: 1px solid darkgray;
@@ -65,8 +65,8 @@
         cursor: pointer;
         }
 }
-@media screen and (max-width: 480px) {
-    form {
+@media screen and (max-width: 480px) { /* Para movil */
+    form { /* Formulario */
     background-color: white;
     border: 1px solid darkgray;
     padding: 20px;
@@ -81,7 +81,7 @@
     margin-bottom: 10px;
     }
     
-    input[type="email"], input[type="number"],  textarea {
+    input[type="email"], input[type="number"],  textarea { /* Imputs de formulario */
     width: 95%;
     padding: 10px;
     margin-bottom: 20px;

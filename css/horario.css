@@ -2,7 +2,7 @@ body{  /* Fondo y letras del body */
     background-color: rgb(202, 186, 186);
     font-family: Arial, sans-serif;
 }
-  .grid-container { /* Contenedor del grid */
+.grid-container { /* Contenedor del grid */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -12,7 +12,7 @@ body{  /* Fondo y letras del body */
     padding: 20px;
     border-radius: 10px;
   }
-  .dia{ /* Elemento del grid */
+.dia{ /* Elemento del grid */
     background-color: rgb(251, 225, 185);
     border-radius: 10px;
     border: 2px solid #000000;
@@ -21,7 +21,7 @@ body{  /* Fondo y letras del body */
     font-size: 16px;
     font-weight: bold;
   }
-  .horario{ /* Elemento del grid */
+.horario{ /* Elemento del grid */
     background-color: rgb(208, 167, 162);
     border-radius: 10px;
     border: 2px solid #000000;
@@ -30,7 +30,7 @@ body{  /* Fondo y letras del body */
     font-size: 16px;
     font-weight: bold;
   }
-  .grid-itemd { /* Elemento del grid */
+.grid-itemd { /* Elemento del grid */
     border-radius: 10px;
     border: 2px solid #000000;
     padding: 10px;
@@ -38,7 +38,7 @@ body{  /* Fondo y letras del body */
     font-size: 16px;
     background-color: rgb(247, 240, 230);
   }
-  .grid-itemh { /* Elemento del grid */
+.grid-itemh { /* Elemento del grid */
     border-radius: 10px;
     border: 2px solid #000000;
     padding: 10px;
@@ -46,14 +46,13 @@ body{  /* Fondo y letras del body */
     font-size: 16px;
     background-color: rgb(238, 212, 209);
   }
-  
-  h1 {
+h1 {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
   }
   
-  @media (max-width: 600px) { /* Para que sea resolutivo */
+@media (max-width: 600px) { /* Para que sea resolutivo */
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
       text-align: center;
